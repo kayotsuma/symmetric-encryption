@@ -3,7 +3,6 @@ import base64
 from Crypto.Cipher import AES
 from Crypto.Hash import HMAC, SHA256
 
-# Вставь свои ключи здесь — base64 строки
 aes_key_b64 = input("AES key:")
 hmac_key_b64 = input("HMAC key:")
 
